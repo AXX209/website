@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <title>Lawrence Roleplay</title>
+</head>
+<body id="main">
+        <div class="container">
+        <div class="container_c" id="bg">
+        <div class="main">
+            <header class="nav">
+        <div class="menu">
+        <ul>
+            <li class="menu__item active"><a href="">INICIO</a></li>
+            <!--<li class="menu__item"><a href="https://seoul-rp.net/foro">FORO</a></li>
+            <li class="menu__item"><a href="https://www.instagram.com/seoul.roleplay/" target="_blank">INSTAGRAM</a></li>-->
+            <li class="menu__item"><a href="https://dsc.gg/lawrencerp" target="_blank">DISCORD</a></li>
+        </ul>
+        </div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="main__text">Juega SA:MP 0.3.7 <br>Bienvenido a <span>Lawrence</span> <FONT color="black"> - Juego de Rol</FONT>
+        </div>
+        <div class="minor__text">Bienvenido a la pagina web de Lawrence - Juego de Rol<br>Disfruta la estadía en
+        el mejor servidor de PC y Android<br>¡Ven a jugar tus amigos! <br></div>
+        <div class="button_block">
+        <div class="button__play">
+        <div class="play__bg" onmouseover="playHover()" onmouseleave="leave()"><a href="samp://server.lawrance-rp.ml:7777" target="_blank">JUEGA</a>
+        </div>
+        </div>
+        <div class="button__voice">
+        <div class="voice__bg" onmouseover="voiceHover()" onmouseleave="leave()"><a href="https://discord.gg/2YdZWDXYyh" target="_blank">COMPRA VIP</a></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <SCRIPT language=JavaScript>
+            function click() {
+            if (event.button== 2 ) {
+            alert( '© 2022 Lawrence Roleplay. Todos los derechos reservados.' );
+            }
+            }
+            document.onmousedown=click
+            // -->
+            </SCRIPT>
+            <script language="Javascript">
+            function disableselect(e){
+            return false
+            }
+            function reEnable(){
+            return true
+            }
+            document.onselectstart=new Function ("return false")
+            if (window.sidebar){
+            document.onmousedown=disableselect
+            document.onclick=reEnable
+            }
+            // fin -->
+        </script>
+       <!--- <script>
+                function playHover() {
+                    main.style.transition = "all 0.3s";
+                    main.style.backgroundImage = "url(../img/background-rocket.png)";
+                    main.style.backgroundPosition = "bottom left";
+                    main.style.backgroundSize = "45%";
+                    main.style.backgroundColor = "#EB0000";
+                    main.style.backgroundRepeat = "no-repeat";
+                    bg.style.background = "linear-gradient(0deg, rgb(235, 0, 0) 0%, rgba(132,0,255,0) 100%)";
+                }
+
+                function voiceHover() {
+                    main.style.transition = "all 0.3s";
+                    main.style.backgroundImage = "url(../img/background-smile.png)";
+                    main.style.backgroundPosition = "bottom left";
+                    main.style.backgroundSize = "45%";
+                    main.style.backgroundColor = "#F2994A";
+                    main.style.backgroundRepeat = "no-repeat";
+                    bg.style.background = "linear-gradient(0deg, rgba(242,153,74,1) 0%, rgba(255,120,0,0) 100%)";
+                }
+
+                function leave() {
+                    main.style.backgroundImage = "";
+                    main.style.backgroundPosition = "0 0";
+                    main.style.backgroundSize = "";
+                    main.style.backgroundColor = "#0E0E0E";
+                    bg.style.background = "linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%)";
+                }
+            </script>-->
+        <!--<script src="js/monitoring.js"></script>-->
+</body>
+</html>
